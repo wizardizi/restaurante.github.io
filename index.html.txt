@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Menu do Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurante Sabor Delícia</h1>
+        <nav>
+            <ul>
+                <li><a href="#entrada">Entradas</a></li>
+                <li><a href="#pratos-principais">Pratos Principais</a></li>
+                <li><a href="#sobremesas">Sobremesas</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="entrada" class="menu-section">
+            <h2>Entradas</h2>
+            <ul>
+                <li><strong>Salada Caesar</strong> - R$ 25,00 <br> Alface, croutons, queijo parmesão e molho especial.</li>
+                <li><strong>Bruschetta</strong> - R$ 18,00 <br> Pão torrado com tomates frescos, manjericão e azeite.</li>
+            </ul>
+        </section>
+
+        <section id="pratos-principais" class="menu-section">
+            <h2>Pratos Principais</h2>
+            <ul>
+                <li><strong>Filé Mignon ao Molho Madeira</strong> - R$ 55,00 <br> Acompanhado de arroz e batata frita.</li>
+                <li><strong>Risoto de Camarão</strong> - R$ 48,00 <br> Risoto cremoso com camarões frescos e ervas.</li>
+            </ul>
+        </section>
+
+        <section id="sobremesas" class="menu-section">
+            <h2>Sobremesas</h2>
+            <ul>
+                <li><strong>Pudim de Leite</strong> - R$ 12,00 <br> Pudim caseiro com calda de caramelo.</li>
+                <li><strong>Mousse de Chocolate</strong> - R$ 15,00 <br> Mousse feito com chocolate belga.</li>
+            </ul>
+        </section>
+
+        <section id="bebidas" class="menu-section">
+            <h2>Bebidas</h2>
+            <ul>
+                <li><strong>Suco Natural</strong> - R$ 8,00 <br> Opções: Laranja, Limão, Abacaxi.</li>
+                <li><strong>Refrigerante</strong> - R$ 6,00 <br> Coca-Cola, Guaraná, Fanta.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurante Sabor Delícia - Todos os direitos reservados</p>
+        <p>Endereço: Rua do Sabor, 123 - Cidade, Estado</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </footer>
+</body>
+</html>
